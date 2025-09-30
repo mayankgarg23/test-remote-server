@@ -22,4 +22,6 @@ Test the server - uv run fastmcp dev main.py -> opens MCP Inspector for testing
 
 Run the server - uv run fastmcp run main.py
 
-Add server to Claude Desktop - uv run fastmcp install claude-desktop main.py
+Add local server to Claude Desktop - uv run fastmcp install claude-desktop main.py
+
+Add proxy server to Claude Desktop - uv run fastmcp install claude-desktop proxy.py
